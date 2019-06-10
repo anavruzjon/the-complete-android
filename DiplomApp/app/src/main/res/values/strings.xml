@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Diplom App</string>
+    <string name="prompt_wcs_url">WCS Url</string>
+    <string name="prompt_login">Login Please</string>
+    <string name="prompt_join_room">Комната</string>
+    <string name="prompt_message">Сообщение</string>
+    <string name="action_connect">Подключится</string>
+    <string name="action_disconnect">Отключится</string>
+    <string name="action_join">Присоединится</string>
+    <string name="action_leave">Покинуть</string>
+    <string name="action_publish">Транслировать видео</string>
+    <string name="action_stop">Приостоновить</string>
+    <string name="action_send">Отправить</string>
+    <string name="wcs_url">wss://192.168.0.1:8080</string>
+    <string name="mute_audio">Убрать звук</string>
+    <string name="mute_video">Убрать видео</string>
+    <string name="record">Запись</string>
+    <string name="flashphoner_radio">Flashphoner Web Call Server</string>
+    <string name="trueconf_radio">TrueConf Server</string>
+    <string name="server_hostname">URL адрес сервера</string>
+    <string name="room_id">Идентификатор комнаты</string>
+    <string name="connect_to_server_button">Подключиться к серверу</string>
+    <string name="connection_status">Не подключено</string>
+    <string name="join_room">Войти в комнату</string>
+    <string name="connection_status_flashphoner">FlashPhoner: Не подключено!</string>
+    <string name="connection_status_trueconf">TrueConf: Не подключено!</string>
+</resources>

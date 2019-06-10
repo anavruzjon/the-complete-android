@@ -1,0 +1,1 @@
+include ':app', ':TrueConfSDK', ':wcs-android-sdk-1.0.1.67'

@@ -1,0 +1,85 @@
+{
+  "project_info": {
+    "project_number": "451368837144",
+    "firebase_url": "https://messanger-app-fe0c5.firebaseio.com",
+    "project_id": "messanger-app-fe0c5",
+    "storage_bucket": "messanger-app-fe0c5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:451368837144:android:fa82453377f62767",
+        "android_client_info": {
+          "package_name": "com.nakhmadov.diplomapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "451368837144-c4gedjjupdft2jquq206oo3f6fso690d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.nakhmadov.diplomapplication",
+            "certificate_hash": "512681abc93e8befbd8c815b097accb63c5c711e"
+          }
+        },
+        {
+          "client_id": "451368837144-h2481cg7tcpq6fs105530naspporbhk2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDPEgaEG9cnykRKhUcs0ggeDNGEQ7TDSQA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "451368837144-h2481cg7tcpq6fs105530naspporbhk2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:451368837144:android:dfeab56c00b2e999",
+        "android_client_info": {
+          "package_name": "com.nakhmadov.messageapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "451368837144-a4nfvuv0l6pniirt5hnfevingn67ql6p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.nakhmadov.messageapp",
+            "certificate_hash": "512681abc93e8befbd8c815b097accb63c5c711e"
+          }
+        },
+        {
+          "client_id": "451368837144-h2481cg7tcpq6fs105530naspporbhk2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDPEgaEG9cnykRKhUcs0ggeDNGEQ7TDSQA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "451368837144-h2481cg7tcpq6fs105530naspporbhk2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,202 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingLeft="8dp"
+    android:paddingTop="8dp"
+    android:paddingRight="8dp"
+    android:paddingBottom="8dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:baselineAligned="false"
+                android:orientation="horizontal"
+                android:weightSum="1.0">
+
+                <LinearLayout
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".5"
+                    android:baselineAligned="false"
+                    android:orientation="vertical">
+
+                    <com.flashphoner.fpwcsapi.layout.PercentFrameLayout
+                        android:id="@+id/remote1_video_layout"
+                        android:layout_width="match_parent"
+                        android:layout_height="180dp"
+                        android:layout_marginStart="2dp"
+                        android:layout_marginEnd="2dp">
+
+                        <org.webrtc.SurfaceViewRenderer
+                            android:id="@+id/remote1_video_view"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+
+                    </com.flashphoner.fpwcsapi.layout.PercentFrameLayout>
+
+                    <TextView
+                        android:id="@+id/participant1_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:text="Пусто"
+                        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".5"
+                    android:baselineAligned="false"
+                    android:orientation="vertical">
+
+                    <com.flashphoner.fpwcsapi.layout.PercentFrameLayout
+                        android:id="@+id/remote2_video_layout"
+                        android:layout_width="match_parent"
+                        android:layout_height="180dp"
+                        android:layout_marginStart="2dp"
+                        android:layout_marginEnd="2dp">
+
+                        <org.webrtc.SurfaceViewRenderer
+                            android:id="@+id/remote2_video_view"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+
+                    </com.flashphoner.fpwcsapi.layout.PercentFrameLayout>
+
+                    <TextView
+                        android:id="@+id/participant2_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:text="Пусто"
+                        android:textAppearance="?android:attr/textAppearanceSmall" />
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:baselineAligned="false"
+                android:orientation="horizontal"
+                android:weightSum="1.0">
+
+                <LinearLayout
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".5"
+                    android:baselineAligned="false"
+                    android:orientation="vertical">
+
+                    <com.flashphoner.fpwcsapi.layout.PercentFrameLayout
+                        android:id="@+id/remote3_video_layout"
+                        android:layout_width="match_parent"
+                        android:layout_height="180dp"
+                        android:layout_marginStart="2dp"
+                        android:layout_marginEnd="2dp">
+
+                        <org.webrtc.SurfaceViewRenderer
+                            android:id="@+id/remote3_video_view"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+
+                    </com.flashphoner.fpwcsapi.layout.PercentFrameLayout>
+
+                    <TextView
+                        android:id="@+id/participant3_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:text="Пусто"
+                        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".5"
+                    android:baselineAligned="false"
+                    android:orientation="vertical">
+
+                    <com.flashphoner.fpwcsapi.layout.PercentFrameLayout
+                        android:id="@+id/remote4_video_layout"
+                        android:layout_width="match_parent"
+                        android:layout_height="180dp"
+                        android:layout_marginStart="2dp"
+                        android:layout_marginEnd="2dp">
+
+                        <org.webrtc.SurfaceViewRenderer
+                            android:id="@+id/remote4_video_view"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+
+                    </com.flashphoner.fpwcsapi.layout.PercentFrameLayout>
+
+                    <TextView
+                        android:id="@+id/participant4_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:text="Пусто"
+                        android:textAppearance="?android:attr/textAppearanceSmall" />
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <com.flashphoner.fpwcsapi.layout.PercentFrameLayout
+                android:id="@+id/local_video_layout"
+                android:layout_width="match_parent"
+                android:layout_height="180dp">
+
+                <org.webrtc.SurfaceViewRenderer
+                    android:id="@+id/local_video_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </com.flashphoner.fpwcsapi.layout.PercentFrameLayout>
+
+
+            <Button
+                android:id="@+id/publish_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="48dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="48dp"
+                android:enabled="false"
+
+                android:text="@string/action_publish"
+                android:textStyle="bold" />
+
+            <Switch
+                android:id="@+id/mute_audio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:enabled="false"
+                android:text="@string/mute_audio" />
+
+            <Switch
+                android:id="@+id/mute_video"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:enabled="false"
+                android:text="@string/mute_video" />
+
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>
